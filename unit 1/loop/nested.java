@@ -4,8 +4,8 @@ public class nested {
         int month = (1); // april
         String season;
 
-        if (month == 12 || month == 1|| month == 2) 
-        season= "winter";
+        if (month == 12|| month == 1|| month == 2) 
+        season = "winter";
 
         else if (month == 3|| month == 4|| month == 5)
         season = "spring";

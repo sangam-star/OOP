@@ -4,7 +4,8 @@ class Box {
 
     double width;
     double height;
-    double depth;       
+    double depth;   
+       
     Box(Box ob){
         width = ob.width;
         height = ob.height;
