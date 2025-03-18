@@ -1,5 +1,7 @@
 // package method overload;
 
+//Method Overloading: Different methods with the same name but different parameters.
+
 public class example {
     public static void main(String[] args) {
 

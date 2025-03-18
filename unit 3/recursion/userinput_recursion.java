@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 
-class factorial {
+class factorial{
     int fact (int n){
         int result;
 
@@ -16,11 +16,11 @@ class factorial {
 public class userinput_recursion {
     public static void main(String[] args) {
         factorial f = new factorial();
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number to find factorial of:");
-        int n = s.nextInt();
+        int n = scanner.nextInt();
         System.out.println("Factorial of  " + n + " is " + f.fact(n));
-        s.close();
+        scanner.close();
     }
     
 }

@@ -1,9 +1,11 @@
-// package unit 4.argumentIn_methods;
+// package unit 3.argument_In_methods;
 
-class test{
+// In this code, we are passing the value of a and b to the method meth.
+
+class test{  //
     void meth(int i, int j){
-        i *= 2;
-        j /= 2;
+        i *= 2;  
+        j /= 2;   
     }
 }
 

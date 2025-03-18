@@ -1,3 +1,6 @@
+
+// Method Overloading: Different methods with the same name but different parameters.
+
 public class OverloadExample {
 
     // Method with 2 int parameters
