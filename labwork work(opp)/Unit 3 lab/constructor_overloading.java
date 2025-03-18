@@ -1,30 +1,42 @@
+import java.util.Scanner;
+
 class Sum {
-    // Constructor with three integers
-    Sum(int a, int b, int c) {
-        System.out.println("a + b + c: " + (a + b + c));
-    }
+    int Sum;
+    String name;
 
-    // Default constructor
-    Sum() {
-        System.out.println("No parameters");
-    }
-
-    // Constructor with two integers
+    //   for integer sum
     Sum(int a, int b) {
-        System.out.println("a + b: " + (a + b));
+        Sum = a + b;
+        System.out.println("Sum of integers: " + Sum);
     }
 
-    // Constructor with two strings
-    Sum(String str1, String str2) {
-        System.out.println("String: " + str1 + str2);
+    //   for string  
+    Sum(String a, String b) {
+        name = a + " " + b ;
+        System.out.println("string: " + name);
     }
 }
 
-public class constructor_overloading {
+public class Constructor_overloading {
     public static void main(String[] args) {
-        new Sum(10, 20, 30);
-        new Sum();
-        new Sum(10, 20);
-        new Sum("sangam, ", "sedai");
+        Scanner scanner = new Scanner(System.in);
+        
+        // Taking integer input
+        System.out.print("Enter first integer: ");
+        int int1 = scanner.nextInt();
+        System.out.print("Enter second integer: ");
+        int int2 = scanner.nextInt();
+        Sum obj1 = new Sum(int1, int2);
+        
+        scanner.nextLine(); // Consume the newline character
+        
+        // Taking string input
+        System.out.print("Enter first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = scanner.nextLine();
+        Sum obj2 = new Sum(str1 , str2);
+        
+        scanner.close();
     }
 }
