@@ -8,8 +8,7 @@ class FactorialCalculator {
         }
         return n * factorial(n - 1);
     }
-}
-
+} 
 public class FactorialRecursive {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

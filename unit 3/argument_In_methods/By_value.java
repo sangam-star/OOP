@@ -8,7 +8,7 @@ class test{  //
         j /= 2;   
     }
 }
-
+        
 
 public class By_value {
     public static void main(String[] args) {

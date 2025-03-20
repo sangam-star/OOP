@@ -1,4 +1,6 @@
 # learned topic inside opps
+
+
 ## unit one and two
 1) class and object 
 2) looop
@@ -21,7 +23,11 @@
 5) Recursion
 6) returning object
 7) This keyword
+8) Inheritance
+    * super class
+    * sub class
 
 ## unit 4
+
 
 
