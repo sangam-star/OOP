@@ -28,8 +28,19 @@
     * sub class
 
 ## unit 4
-1) packages 
-2) 
+1) packages and interfaces
+
+## unit 5
+1) finally
+2) throw
+3) catch and try
+
+
+## unit 6
+1) input output
+2) multithreading
+
+
 
 
 

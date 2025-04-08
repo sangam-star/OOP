@@ -12,11 +12,11 @@ class OverLoadDemo{
 
     } 
     void test(int a, int b){
-        System.out.println(" a and b:" + a+ " "+b);
+        System.out.println(" a and b:" + a + " "+b);
     }
 
     double test (double a){
-        System.out.println("double a:"+a);
+        System.out.println("double a:" +a);
         return a*a;
     } 
 } 
