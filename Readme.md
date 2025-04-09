@@ -48,6 +48,9 @@
 2) flow layout
 3) Border layout
 4) Grid layout
+5) color
+6) panel
+7) graphic 
 
 
 
