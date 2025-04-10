@@ -2,12 +2,14 @@
 
 public class Exe2{
     public static void main(String[] args) {
+        
         int d, a ;
+        
         try{
             d= 0;
             a = 42/d;
 
-            System.out.println(" this will not be printed");
+            System.out.println("Value of a: " + a);
             
         }
         
