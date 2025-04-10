@@ -1,0 +1,6 @@
+hello its me sangam
+
+I am trying to 
+READ A FILE AND PRINT ITS CONTENTS 
+
+Thank you !!!
