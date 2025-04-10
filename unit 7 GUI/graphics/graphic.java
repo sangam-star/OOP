@@ -1,7 +1,7 @@
 // package unit 7 GUI.graphics;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class graphic extends JFrame {
     public graphic() {
@@ -19,8 +19,10 @@ public class graphic extends JFrame {
         
     }
 }
+
 class NewPanel extends JPanel {
      
+    @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.drawString("Hello, Graphics!", 50, 50);
