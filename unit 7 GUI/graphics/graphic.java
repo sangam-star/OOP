@@ -25,13 +25,13 @@ class NewPanel extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawString("Hello, Graphics!", 50, 50);
+        g.drawString("Hello, Graphics!", 200, 50);
         // g.drawRect(ALLBITS, ABORT, WIDTH, HEIGHT);
         g.drawRect(10, 10, 100, 100);
         g.drawLine(150, 40, 250, 100);
         g.drawOval(20, 120, 100, 60);
         g.drawArc(150, 120, 100, 100, 0, 90);
-        g.drawPolygon(new int[]{50, 80, 110}, new int[]{220, 180, 2200}, 3);
+        // g.drawPolygon(new int[]{50, 80, 110}, new int[]{220, 180, 2200}, 3);
         g.setColor(Color.RED);
     }
 }
